@@ -17,7 +17,7 @@ public class WeatherController {
             String apiKey = "76b99b61752d646027d2a16a3630bf4b";
 
 
-            String url = "https://api.openweathermap.org/data/2.5/weather?q=Cape%20Town&appid="
+            String url = "https://api.openweathermap.org/data/2.5/weather?q=Cape Town&appid="
                     + apiKey + "&units=metric";
 
             RestTemplate restTemplate = new RestTemplate();
